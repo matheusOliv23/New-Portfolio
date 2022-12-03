@@ -1,25 +1,15 @@
-import { render } from "@testing-library/react"
-import Main from "./index"
+import { render, screen } from '@testing-library/react'
 
-describe("Main", () => {
-  it("should render heading", () => {
-    const { container } = render(
-      <Main
-        title="Boilerplate"
-        description="Typescript, Reactjs, Nextjs, Styled Components"
-      />
-    )
-    expect(container).toBeInTheDocument()
-    expect(container).toMatchSnapshot()
-  })
+import Main from './index'
 
-  it("should render colors correctly", () => {
-    const { container } = render(
-      <Main
-        title="Boilerplate"
-        description="Typescript, Reactjs, Nextjs, Styled Components"
-      />
-    )
-    expect(container.firstChild).toHaveStyle({ "background-color": "#06092b" })
+const { getByRole } = screen
+
+describe('<Main />', () => {
+  it('should render the heading', () => {
+    render(<Main title="Bem vindo"/>)
+
+    const heading = getByRole('heading', { name: 'Bem vindo' })
+
+    expect(heading).toBeInTheDocument()
   })
 })

@@ -1,13 +1,11 @@
-import * as S from "./styles"
-
 interface {{pascalCase name}}Props {
   title: string;
 }
 
 export default function {{pascalCase name}}({title}:{{pascalCase name}}Props ) {
   return (
-    <S.Wrapper>
-     <h1>{title}</h1>
-    </S.Wrapper>
+    <div className="flex justify-center">
+      <h1 className="font-bold text-lg">{title}</h1>
+    </div>
   )
 }
