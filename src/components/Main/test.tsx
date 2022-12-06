@@ -1,15 +1,11 @@
-import { render, screen } from '@testing-library/react'
+import { render } from "@testing-library/react"
 
-import Main from './index'
+import Main from "./index"
 
-const { getByRole } = screen
+describe("<Main />", () => {
+  it("should match snapshot", () => {
+    const { container } = render(<Main />)
 
-describe('<Main />', () => {
-  it('should render the heading', () => {
-    render(<Main title="Bem vindo"/>)
-
-    const heading = getByRole('heading', { name: 'Bem vindo' })
-
-    expect(heading).toBeInTheDocument()
+    expect(container).toMatchSnapshot()
   })
 })

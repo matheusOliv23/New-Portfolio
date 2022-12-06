@@ -10,6 +10,4 @@ export default {
 const Template: ComponentStory<typeof Main> = () => <Main />
 
 export const Default = Template.bind({})
-Default.args = {
-  title: "Main"
-}
+Default.args = {}
