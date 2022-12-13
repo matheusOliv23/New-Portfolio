@@ -48,32 +48,56 @@ exports[`<Main /> should match snapshot 1`] = `
         style="background-image: url(/images/eu.webp);"
       />
       <div
-        class="flex gap-3 mt-2"
+        class="flex gap-5 mt-2"
       >
-        <a
-          class="hover:opacity-50"
-          href="https://www.instagram.com/matheus.olli23/"
-          rel="noreferrer"
-          target="_blank"
+        <div
+          class="flex hover:opacity-50 flex-col items-center justify-center"
         >
-          <span />
-        </a>
-        <a
-          class="hover:opacity-50"
-          href="https://www.linkedin.com/in/matheushenrioliveira/"
-          rel="noreferrer"
-          target="_blank"
+          <a
+            href="https://www.instagram.com/matheus.olli23/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <span />
+          </a>
+          <span
+            class="text-xs"
+          >
+            Instagram
+          </span>
+        </div>
+        <div
+          class="flex hover:opacity-50 flex-col items-center justify-center"
         >
-          <span />
-        </a>
-        <a
-          class="hover:opacity-50"
-          href="https://github.com/matheusOliv23"
-          rel="noreferrer"
-          target="_blank"
+          <a
+            href="https://www.linkedin.com/in/matheushenrioliveira/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <span />
+          </a>
+          <span
+            class="text-xs"
+          >
+            Linkedin
+          </span>
+        </div>
+        <div
+          class="flex hover:opacity-50 flex-col items-center justify-center"
         >
-          <span />
-        </a>
+          <a
+            href="https://github.com/matheusOliv23"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <span />
+          </a>
+          <span
+            class="text-xs"
+          >
+            Github
+          </span>
+        </div>
       </div>
     </div>
   </section>

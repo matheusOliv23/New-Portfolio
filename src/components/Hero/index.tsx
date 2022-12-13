@@ -1,23 +1,6 @@
-import { Icon } from "@iconify/react"
 import Headline from "../Headline"
+import SocialIcons from "../SocialIcons"
 
-const icons = [
-  {
-    id: 1,
-    name: "ph:instagram-logo",
-    href: "https://www.instagram.com/matheus.olli23/"
-  },
-  {
-    id: 2,
-    name: "mdi:linkedin",
-    href: "https://www.linkedin.com/in/matheushenrioliveira/"
-  },
-  {
-    id: 3,
-    name: "mdi:github",
-    href: "https://github.com/matheusOliv23"
-  }
-]
 export default function Hero() {
   return (
     <section
@@ -34,24 +17,7 @@ export default function Hero() {
           className="w-[15.5rem] md:w-[22rem] md:h-[22rem] flex items-center justify-center bg-cover bg-center pr-[0.5rem] bg-no-repeat ring-[5px] ring-inset ring-teal-500 rounded-[50%] h-[15.5rem]"
         />
 
-        <div className="flex gap-3 mt-2">
-          {icons.map((icon) => (
-            <a
-              href={icon.href}
-              key={icon.id}
-              className="hover:opacity-50"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon
-                aria-label={icon.name}
-                width="32"
-                height="32"
-                icon={icon.name}
-              />
-            </a>
-          ))}
-        </div>
+        <SocialIcons />
       </div>
     </section>
   )
