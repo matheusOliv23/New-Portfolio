@@ -23,7 +23,7 @@ const icons = [
 
 export default function SocialIcons() {
   return (
-    <div className="flex gap-5 mt-2">
+    <div className="flex gap-10 mb-2 mt-2">
       {icons.map((icon) => (
         <div
           className="flex hover:opacity-50 flex-col items-center justify-center"
@@ -37,7 +37,7 @@ export default function SocialIcons() {
               icon={icon.name}
             />
           </a>
-          <span className="text-xs">{icon.title}</span>
+          <span className="text-xs font-medium">{icon.title}</span>
         </div>
       ))}
     </div>
