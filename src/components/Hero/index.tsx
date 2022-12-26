@@ -1,3 +1,4 @@
+import Header from "../Header"
 import Headline from "../Headline"
 import SocialIcons from "../SocialIcons"
 import { HeroImgStyles, HeroStyles, ImgContainer } from "./styles"
@@ -11,14 +12,17 @@ export default function Hero() {
       }}
       className={HeroStyles}
     >
-      <Headline />
-      <div className={ImgContainer}>
-        <div
-          style={{ backgroundImage: "url('/images/eu.webp')" }}
-          className={HeroImgStyles}
-        />
+      <Header />
+      <div className="lg:flex-row flex-col-reverse flex items-center justify-around">
+        <Headline />
+        <div className={ImgContainer}>
+          <div
+            style={{ backgroundImage: "url('/images/eu.webp')" }}
+            className={HeroImgStyles}
+          />
 
-        <SocialIcons />
+          <SocialIcons />
+        </div>
       </div>
     </section>
   )

@@ -3,100 +3,134 @@
 exports[`<Hero /> should  match snapshot 1`] = `
 <div>
   <section
-    class="h-[90vh] transition-all duration-300 lg:flex-row flex-col-reverse flex items-center justify-around px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center"
+    class="lg:h-[90vh] h-full flex flex-col md:gap-32 gap-5 transition-all duration-300  px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center"
     style="background-blend-mode: lighten;"
   >
-    <div
-      class="flex flex-col lg:items-start z-50 gap-8 !opacity-100 items-center justify-center lg:text-start text-center"
+    <header
+      class="flex w-full border-b-[0.3px] border-[#ffffff14] p-4 px-6 justify-end"
     >
-      <h1
-        class="font-bold md:text-5xl text-2xl tracking-widest"
-      >
-        MATHEUS HENRIQUE OLIVEIRA
-      </h1>
-      <h2
-        class="lg:text-5xl text-4xl text-[#8a8f98] font-medium tracking-widest mt-2"
-      >
-        Desenvolvedor 
-        <strong
-          class="text-primary"
+      <nav>
+        <ul
+          class="flex items-center gap-9 justify-between"
         >
-          Front-End
-        </strong>
-      </h2>
-      <h3
-        class="lg:text-3xl text-2xl max-w-[32rem]"
-      >
-        Transformando sonhos em realidade por meio da tecnologia
-      </h3>
+          <li
+            class="hover:text-primary cursor-pointer"
+          >
+            Home
+          </li>
+          <li
+            class="hover:text-primary cursor-pointer"
+          >
+            Sobre Mim
+          </li>
+          <li
+            class="hover:text-primary cursor-pointer"
+          >
+            Projetos
+          </li>
+          <li
+            class="hover:text-primary cursor-pointer"
+          >
+            Habilidades
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      class="lg:flex-row flex-col-reverse flex items-center justify-around"
+    >
       <div
-        class="flex gap-6 justify-center items-center"
+        class="flex mt-4 flex-col lg:items-start z-50 gap-10 !opacity-100 items-center justify-center lg:text-start text-center"
       >
-        <button
-          class="ease-in duration-200 tracking-[0.25rem] before:bg-[#27282c] uppercase ring-2 ring-inset hover:text-primary relative text-2xl font-bold duration-300  hover:shadow-2xl hover:text-white  py-4 px-7 rounded min-w-[3rem]  text-center flex items-center w-full justify-center bg-[#1e9bff] text-white undefined"
-          type="button"
+        <h1
+          class="font-bold md:text-4xl text-2xl tracking-widest"
         >
-          Quem sou eu
-        </button>
+          MATHEUS HENRIQUE OLIVEIRA
+        </h1>
+        <h2
+          class="lg:text-4xl text-4xl text-[#8a8f98] font-medium tracking-widest mt-2"
+        >
+          Desenvolvedor 
+          <strong
+            class="text-primary"
+          >
+            Front-End
+          </strong>
+        </h2>
+        <h3
+          class="lg:text-2xl text-xl max-w-[32rem]"
+        >
+          Transformando sonhos em realidade por meio da tecnologia
+        </h3>
+        <div
+          class="flex lg:mt-3 w-[13rem]  gap-6 justify-center items-center"
+        >
+          <button
+            class="ease-in duration-200 tracking-[0.25rem] before:bg-[#27282c] uppercase ring-2 ring-inset hover:text-primary relative text-base font-bold duration-300  hover:shadow-2xl hover:text-white  py-4 px-7 rounded min-w-[3rem]  text-center flex items-center w-full justify-center bg-[#1e9bff] text-white undefined"
+            type="button"
+          >
+            Quem sou eu
+          </button>
+        </div>
       </div>
-    </div>
-    <div
-      class="flex flex-col items-center gap-5"
-    >
       <div
-        class="w-[15.5rem] md:w-[22rem] md:h-[22rem] flex items-center justify-center bg-cover bg-center pr-[0.5rem] bg-no-repeat ring-[5px] ring-inset ring-teal-500 rounded-[50%] h-[15.5rem]"
-        style="background-image: url(/images/eu.webp);"
-      />
-      <div
-        class="flex gap-5 mt-2"
+        class="flex flex-col items-center gap-5"
       >
         <div
-          class="flex hover:opacity-50 flex-col items-center justify-center"
-        >
-          <a
-            href="https://www.instagram.com/matheus.olli23/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <span />
-          </a>
-          <span
-            class="text-xs"
-          >
-            Instagram
-          </span>
-        </div>
+          class="w-[15.5rem] lg:w-[18rem] lg:h-[18rem] flex items-center justify-center bg-cover bg-center pr-[0.5rem] bg-no-repeat ring-[5px] ring-inset ring-teal-500 rounded-[50%] h-[15.5rem]"
+          style="background-image: url(/images/eu.webp);"
+        />
         <div
-          class="flex hover:opacity-50 flex-col items-center justify-center"
+          class="flex gap-10 mb-2 mt-2"
         >
-          <a
-            href="https://www.linkedin.com/in/matheushenrioliveira/"
-            rel="noreferrer"
-            target="_blank"
+          <div
+            class="flex hover:opacity-50 flex-col items-center justify-center"
           >
-            <span />
-          </a>
-          <span
-            class="text-xs"
+            <a
+              href="https://www.instagram.com/matheus.olli23/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span />
+            </a>
+            <span
+              class="text-xs font-medium"
+            >
+              Instagram
+            </span>
+          </div>
+          <div
+            class="flex hover:opacity-50 flex-col items-center justify-center"
           >
-            Linkedin
-          </span>
-        </div>
-        <div
-          class="flex hover:opacity-50 flex-col items-center justify-center"
-        >
-          <a
-            href="https://github.com/matheusOliv23"
-            rel="noreferrer"
-            target="_blank"
+            <a
+              href="https://www.linkedin.com/in/matheushenrioliveira/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span />
+            </a>
+            <span
+              class="text-xs font-medium"
+            >
+              Linkedin
+            </span>
+          </div>
+          <div
+            class="flex hover:opacity-50 flex-col items-center justify-center"
           >
-            <span />
-          </a>
-          <span
-            class="text-xs"
-          >
-            Github
-          </span>
+            <a
+              href="https://github.com/matheusOliv23"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span />
+            </a>
+            <span
+              class="text-xs font-medium"
+            >
+              Github
+            </span>
+          </div>
         </div>
       </div>
     </div>

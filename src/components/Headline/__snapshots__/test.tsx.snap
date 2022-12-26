@@ -3,15 +3,15 @@
 exports[`<Headline /> should match snapshot 1`] = `
 <div>
   <div
-    class="flex flex-col lg:items-start z-50 gap-8 !opacity-100 items-center justify-center lg:text-start text-center"
+    class="flex mt-4 flex-col lg:items-start z-50 gap-10 !opacity-100 items-center justify-center lg:text-start text-center"
   >
     <h1
-      class="font-bold md:text-5xl text-2xl tracking-widest"
+      class="font-bold md:text-4xl text-2xl tracking-widest"
     >
       MATHEUS HENRIQUE OLIVEIRA
     </h1>
     <h2
-      class="lg:text-5xl text-4xl text-[#8a8f98] font-medium tracking-widest mt-2"
+      class="lg:text-4xl text-4xl text-[#8a8f98] font-medium tracking-widest mt-2"
     >
       Desenvolvedor 
       <strong
@@ -21,15 +21,15 @@ exports[`<Headline /> should match snapshot 1`] = `
       </strong>
     </h2>
     <h3
-      class="lg:text-3xl text-2xl max-w-[32rem]"
+      class="lg:text-2xl text-xl max-w-[32rem]"
     >
       Transformando sonhos em realidade por meio da tecnologia
     </h3>
     <div
-      class="flex gap-6 justify-center items-center"
+      class="flex lg:mt-3 w-[13rem]  gap-6 justify-center items-center"
     >
       <button
-        class="ease-in duration-200 tracking-[0.25rem] before:bg-[#27282c] uppercase ring-2 ring-inset hover:text-primary relative text-2xl font-bold duration-300  hover:shadow-2xl hover:text-white  py-4 px-7 rounded min-w-[3rem]  text-center flex items-center w-full justify-center bg-[#1e9bff] text-white undefined"
+        class="ease-in duration-200 tracking-[0.25rem] before:bg-[#27282c] uppercase ring-2 ring-inset hover:text-primary relative text-base font-bold duration-300  hover:shadow-2xl hover:text-white  py-4 px-7 rounded min-w-[3rem]  text-center flex items-center w-full justify-center bg-[#1e9bff] text-white undefined"
         type="button"
       >
         Quem sou eu

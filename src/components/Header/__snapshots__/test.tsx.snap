@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match snapshot 1`] = `
+<div>
+  <header
+    class="flex w-full border-b-[0.3px] border-[#ffffff14] p-4 px-6 justify-end"
+  >
+    <nav>
+      <ul
+        class="flex items-center gap-9 justify-between"
+      >
+        <li
+          class="hover:text-primary cursor-pointer"
+        >
+          Home
+        </li>
+        <li
+          class="hover:text-primary cursor-pointer"
+        >
+          Sobre Mim
+        </li>
+        <li
+          class="hover:text-primary cursor-pointer"
+        >
+          Projetos
+        </li>
+        <li
+          class="hover:text-primary cursor-pointer"
+        >
+          Habilidades
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;

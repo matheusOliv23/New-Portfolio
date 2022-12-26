@@ -3,7 +3,7 @@
 exports[`<SocialIcons /> should match snapshot 1`] = `
 <div>
   <div
-    class="flex gap-5 mt-2"
+    class="flex gap-10 mb-2 mt-2"
   >
     <div
       class="flex hover:opacity-50 flex-col items-center justify-center"
@@ -16,7 +16,7 @@ exports[`<SocialIcons /> should match snapshot 1`] = `
         <span />
       </a>
       <span
-        class="text-xs"
+        class="text-xs font-medium"
       >
         Instagram
       </span>
@@ -32,7 +32,7 @@ exports[`<SocialIcons /> should match snapshot 1`] = `
         <span />
       </a>
       <span
-        class="text-xs"
+        class="text-xs font-medium"
       >
         Linkedin
       </span>
@@ -48,7 +48,7 @@ exports[`<SocialIcons /> should match snapshot 1`] = `
         <span />
       </a>
       <span
-        class="text-xs"
+        class="text-xs font-medium"
       >
         Github
       </span>

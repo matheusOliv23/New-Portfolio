@@ -12,3 +12,7 @@ body {
 a {
   @apply no-underline;
 }
+
+li {
+  @apply list-none;
+}
