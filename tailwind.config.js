@@ -12,7 +12,9 @@ module.exports = {
                 'dark-200': "#0f0f0f",
             },
             fontFamily: {
-                dm: ['DM Sans', 'Roboto', 'sans-serif']
+                dm: ['DM Sans', 'Roboto', 'sans-serif'],
+                quicksand: ['Quicksand', 'sans-serif'],
+                openSans: ['Open Sans', 'sans-serif']
             },
             boxShadow: {
                 '2xl': '0 0 35px #1e9bff'
