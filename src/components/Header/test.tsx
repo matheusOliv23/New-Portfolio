@@ -9,7 +9,7 @@ describe("<Header />", () => {
     render(<Header />)
 
     const homeLink = getByText("Home")
-    const aboutLink = getByText("Sobre Mim")
+    const aboutLink = getByText("Sobre")
     const projectsLink = getByText("Projetos")
     const skillsLink = getByText("Habilidades")
 

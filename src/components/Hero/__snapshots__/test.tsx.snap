@@ -7,7 +7,7 @@ exports[`<Hero /> should  match snapshot 1`] = `
     style="background-blend-mode: lighten;"
   >
     <header
-      class="flex w-full border-b-[0.3px] border-[#ffffff14] p-4 px-6 justify-end"
+      class="flex items-center justify-center  w-full border-b-[0.3px] border-[#ffffff14] p-4 px-6 md:justify-end"
     >
       <nav>
         <ul
@@ -21,7 +21,7 @@ exports[`<Hero /> should  match snapshot 1`] = `
           <li
             class="hover:text-primary cursor-pointer"
           >
-            Sobre Mim
+            Sobre
           </li>
           <li
             class="hover:text-primary cursor-pointer"
