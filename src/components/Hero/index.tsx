@@ -20,7 +20,6 @@ export default function Hero() {
             style={{ backgroundImage: "url('/images/eu.webp')" }}
             className={HeroImgStyles}
           />
-
           <SocialIcons />
         </div>
       </div>
