@@ -26,7 +26,8 @@
         "react-dom": "^18.2.0",
         "storybook-addon-next": "^1.7.1",
         "storybook-tailwind-foundations": "^1.1.2",
-        "styled-components": "^5.3.5"
+        "styled-components": "^5.3.5",
+        "swiper": "^8.4.6"
     },
     "devDependencies": {
         "@babel/core": "^7.18.13",
