@@ -3,7 +3,7 @@
 exports[`<Main /> should match snapshot 1`] = `
 <div>
   <section
-    class="lg:h-[90vh] h-full flex flex-col md:gap-32 gap-5 transition-all duration-300  px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center"
+    class="lg:h-[650px] h-auto m-auto flex flex-col lg:gap-32 gap-5 transition-all duration-300 px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center"
     style="background-blend-mode: lighten;"
   >
     <header
@@ -135,5 +135,73 @@ exports[`<Main /> should match snapshot 1`] = `
       </div>
     </div>
   </section>
+  <div
+    class="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between  lg:justify-center"
+  >
+    <div
+      class="space-y-4"
+    >
+      <h2
+        class="text-xl text-primary"
+      >
+        Sobre mim
+      </h2>
+      <p
+        class="md:text-4xl text-2xl lg:max-w-lg font-medium leading-10"
+      >
+        Venho trabalhando com Desenvolvimento Web desde 2021
+      </p>
+      <p
+        class="lg:max-w-xl text-justify"
+      >
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+      </p>
+    </div>
+    <div
+      class="flex items-center justify-center flex-col w-full lg:max-w-sm space-y-4"
+    >
+      <div
+        class="flex w-full justify-between md:gap-16 md:justify-start lg:justify-between items-center"
+      >
+        <div
+          class="flex items-center gap-2"
+        >
+          <p
+            class="text-6xl font-semibold text-primary"
+          >
+            1.5
+          </p>
+          <p
+            class="text-sm"
+          >
+            anos 
+            <br />
+             de experiência
+          </p>
+        </div>
+        <div
+          class="flex items-center gap-2"
+        >
+          <p
+            class="text-6xl font-semibold text-primary"
+          >
+            6
+          </p>
+          <p
+            class="text-sm"
+          >
+            projetos 
+            <br />
+             concluídos
+          </p>
+        </div>
+      </div>
+      <p
+        class="text-sm text-justify"
+      >
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+      </p>
+    </div>
+  </div>
 </div>
 `;

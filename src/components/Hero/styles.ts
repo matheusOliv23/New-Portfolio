@@ -1,4 +1,4 @@
-export const HeroStyles = `lg:h-[90vh] h-full flex flex-col md:gap-32 gap-5 transition-all duration-300  px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center`
+export const HeroStyles = `lg:h-[650px] h-auto m-auto flex flex-col lg:gap-32 gap-5 transition-all duration-300 px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center`
 
 export const ImgContainer = `flex flex-col items-center gap-5`
 

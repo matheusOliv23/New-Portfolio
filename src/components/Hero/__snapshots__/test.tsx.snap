@@ -3,7 +3,7 @@
 exports[`<Hero /> should  match snapshot 1`] = `
 <div>
   <section
-    class="lg:h-[90vh] h-full flex flex-col md:gap-32 gap-5 transition-all duration-300  px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center"
+    class="lg:h-[650px] h-auto m-auto flex flex-col lg:gap-32 gap-5 transition-all duration-300 px-7 py-3 bg-no-repeat bg-fixed bg-cover bg-center"
     style="background-blend-mode: lighten;"
   >
     <header

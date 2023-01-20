@@ -8,6 +8,10 @@ import {
 } from "./styles"
 
 export default function Headline() {
+
+  function scrollDown() {
+    window.scrollTo({ top: 800, behavior: "smooth" })
+  }
   return (
     <div className={HeadlineContainer}>
       <h1 className={TitleStyles}>MATHEUS HENRIQUE OLIVEIRA</h1>
@@ -18,7 +22,7 @@ export default function Headline() {
         Transformando sonhos em realidade por meio da tecnologia
       </h3>
       <div className={ButtonContainerStyls}>
-        <Button type="button" variant="PRIMARY">
+        <Button onClick={scrollDown} type="button" variant="PRIMARY">
           Quem sou eu
         </Button>
       </div>
