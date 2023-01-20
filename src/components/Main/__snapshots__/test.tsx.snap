@@ -154,7 +154,7 @@ exports[`<Main /> should match snapshot 1`] = `
       <p
         class="lg:max-w-xl text-justify"
       >
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+        Tenho como objetivo principal me tornar destaque no desenvolvimento web, principalmente na parte de Front-End. Sou uma pessoa muito dedicada, educada, responsável e gosto muito de novos desafios. Prezo muito pela qualidade e satisfação dos clientes e tenho a mente bem aberta para receber feedbacks, tanto positivos quanto negativos.
       </p>
     </div>
     <div
@@ -197,9 +197,9 @@ exports[`<Main /> should match snapshot 1`] = `
         </div>
       </div>
       <p
-        class="text-sm text-justify"
+        class="text-justify"
       >
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+        Experiência em desenvolvimento de aplicações web responsivas utilizando Javascript, Typescript e Reactjs.
       </p>
     </div>
   </div>
