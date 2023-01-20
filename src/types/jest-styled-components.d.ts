@@ -4,6 +4,7 @@ declare global {
   namespace jest {
     interface AsymmetricMatcher {
       $$typeof: symbol
+      // eslint-disable-next-line
       sample?: string | RegExp | object | Array<any> | Function
     }
 
@@ -15,6 +16,7 @@ declare global {
       supports?: string
     }
 
+    // eslint-disable-next-line
     interface Matchers<R, T> {
       toHaveStyleRule(property: string, value?: Value, options?: Options): R
     }
