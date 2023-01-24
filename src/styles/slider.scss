@@ -1,0 +1,51 @@
+.mySwiper {
+    .swiper {
+        height: 100%;
+        border: 1px solid white !important;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: #272c33;
+        top: 32%;
+        padding: -2.9rem;
+        z-index: 999999;
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        color: white;
+        font-size: 1rem;
+    }
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .swiper-pagination-fraction {
+        bottom: 0;
+    }
+    .swiper-pagination-bullet {
+        background-color: white;
+        width: 0.625rem;
+        height: 0.625rem;
+    }
+    .swiper-container {
+        width: 500px !important;
+    }
+}
+
+.cardsSwiper {
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        // display: none;
+    }
+}
