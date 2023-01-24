@@ -10,6 +10,7 @@ module.exports = {
             colors: {
                 'primary': "#1e9bff",
                 'dark-200': "#0f0f0f",
+                'dark-300': '#09090b'
             },
             fontFamily: {
                 dm: ['DM Sans', 'Roboto', 'sans-serif'],
