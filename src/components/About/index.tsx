@@ -2,7 +2,7 @@ import React from "react"
 
 export default function About() {
   return (
-    <div className="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between  lg:justify-center">
+    <div className="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center">
       <div className="space-y-4">
         <h2 className="text-xl text-primary">Sobre mim</h2>
         <p className="md:text-4xl text-2xl lg:max-w-lg font-medium leading-10">
