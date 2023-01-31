@@ -51,7 +51,6 @@ export default function Projects() {
           className="ease flex items-center w-full justify-center m-auto h-full transition duration-200 cardsSwiper"
           navigation={true}
           loop={false}
-          // spaceBetween={40}
           breakpoints={breakpoints}
         >
           {projects.map((item) => (
