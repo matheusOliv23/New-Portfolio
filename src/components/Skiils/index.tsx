@@ -49,7 +49,7 @@ export default function Skiils() {
     <div className="flex w-full flex-col items-center font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto lg:justify-center">
       <h2 className="text-[40px] text-center mb-10">Habilidades</h2>
 
-      <div className="flex justify-between w-4/5 flex-wrap">
+      <div className="flex md:justify-between justify-center md:gap-0 gap-6 w-4/5 flex-wrap">
         {skills.map((item, index) => (
           <div
             key={index}
