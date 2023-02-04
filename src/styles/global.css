@@ -16,3 +16,7 @@ a {
 li {
   @apply list-none;
 }
+
+.skill {
+  @apply w-24 h-24 text-secondary transition-all hover:text-primary hover:scale-95;
+}
