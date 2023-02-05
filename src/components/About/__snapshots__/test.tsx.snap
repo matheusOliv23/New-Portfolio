@@ -3,7 +3,7 @@
 exports[`<About /> should match snapshot 1`] = `
 <div>
   <div
-    class="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between  lg:justify-center"
+    class="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center"
   >
     <div
       class="space-y-4"
@@ -16,7 +16,7 @@ exports[`<About /> should match snapshot 1`] = `
       <p
         class="md:text-4xl text-2xl lg:max-w-lg font-medium leading-10"
       >
-        Venho trabalhando com Desenvolvimento Web desde 2021
+        Trabalho com Desenvolvimento Web desde 2021
       </p>
       <p
         class="lg:max-w-xl text-justify"

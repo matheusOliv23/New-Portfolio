@@ -6,7 +6,7 @@ export default function About() {
       <div className="space-y-4">
         <h2 className="text-xl text-primary">Sobre mim</h2>
         <p className="md:text-4xl text-2xl lg:max-w-lg font-medium leading-10">
-          Venho trabalhando com Desenvolvimento Web desde 2021
+          Trabalho com Desenvolvimento Web desde 2021
         </p>
         <p className="lg:max-w-xl text-justify">
           Tenho como objetivo principal me tornar destaque no desenvolvimento
