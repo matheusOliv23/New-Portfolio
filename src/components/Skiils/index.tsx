@@ -1,50 +1,13 @@
-import { IoLogoJavascript } from "react-icons/io"
-import { FaReact } from "react-icons/fa"
-import {
-  SiTypescript,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiStyledcomponents,
-  SiJest,
-  SiTailwindcss
-} from "react-icons/si"
+type SkillType = {
+  title: string
+  icon: JSX.Element
+}
 
-const skills = [
-  {
-    title: "Javascript",
-    icon: <IoLogoJavascript className="skill" />
-  },
-  {
-    title: "Typescript",
-    icon: <SiTypescript className="skill" />
-  },
-  {
-    title: "Nextjs",
-    icon: <SiNextdotjs className="skill" />
-  },
-  {
-    title: "Reactjs",
-    icon: <FaReact className="skill" />
-  },
-  {
-    title: "Nodejs",
-    icon: <SiNodedotjs className="skill" />
-  },
-  {
-    title: "Styled Components",
-    icon: <SiStyledcomponents className="skill" />
-  },
-  {
-    title: "Tailwindcss",
-    icon: <SiTailwindcss className="skill" />
-  },
-  {
-    title: "Jest",
-    icon: <SiJest className="skill" />
-  }
-]
+interface SkillsProps {
+  skills: SkillType[]
+}
 
-export default function Skiils() {
+export default function Skiils({ skills }: SkillsProps) {
   return (
     <div className="flex w-full flex-col items-center font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto lg:justify-center">
       <h2 className="text-[40px] text-center mb-10">Habilidades</h2>
