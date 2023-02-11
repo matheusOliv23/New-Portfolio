@@ -10,7 +10,7 @@ import {
 export default function Headline() {
 
   function scrollDown() {
-    window.scrollTo({ top: 800, behavior: "smooth" })
+    window.scrollTo({ top: 300, behavior: "smooth" })
   }
   return (
     <div className={HeadlineContainer}>

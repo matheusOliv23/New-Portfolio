@@ -4,16 +4,11 @@ export default function About() {
   return (
     <div className="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center">
       <div className="space-y-4">
-        <h2 className="text-xl text-primary">Sobre mim</h2>
-        <p className="md:text-4xl text-2xl lg:max-w-lg font-medium leading-10">
-          Trabalho com Desenvolvimento Web desde 2021
-        </p>
-        <p className="lg:max-w-xl text-justify">
+        <h2 className="text-2xl text-primary">Sobre mim</h2>
+        <p className="lg:max-w-xl text-xl text-justify">
           Tenho como objetivo principal me tornar destaque no desenvolvimento
           web, principalmente na parte de Front-End. Sou uma pessoa muito
-          dedicada, educada, responsável e gosto muito de novos desafios. Prezo
-          muito pela qualidade e satisfação dos clientes e tenho a mente bem
-          aberta para receber feedbacks, tanto positivos quanto negativos.
+          dedicada, educada, responsável e gosto muito de novos desafios.
         </p>
       </div>
 
@@ -34,8 +29,8 @@ export default function About() {
         </div>
 
         <p className="text-justify">
-          Experiência em desenvolvimento de aplicações web responsivas
-          utilizando Javascript, Typescript e Reactjs.
+          Experiência em desenvolvimento de aplicações web responsivas e
+          escaláveis utilizando Javascript, Typescript e Reactjs.
         </p>
       </div>
     </div>
