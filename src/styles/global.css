@@ -21,3 +21,24 @@ li {
 .skill {
   @apply w-24 h-24 text-secondary transition-all hover:text-primary hover:scale-95;
 }
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7ac7e3;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7ac7e3;
+  border-radius: 14px;
+}
