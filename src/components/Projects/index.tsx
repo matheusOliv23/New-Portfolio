@@ -41,7 +41,10 @@ const breakpoints = {
 
 export default function Projects() {
   return (
-    <div className="flex w-full font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center bg-black">
+    <section
+      id="projects"
+      className="flex w-full font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center bg-black"
+    >
       <div className="m-auto w-full max-w-7xl">
         <h2 className="text-[40px] text-center mb-10">Projetos</h2>
 
@@ -60,6 +63,6 @@ export default function Projects() {
           ))}
         </Swiper>
       </div>
-    </div>
+    </section>
   )
 }

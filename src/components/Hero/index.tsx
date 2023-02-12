@@ -10,6 +10,8 @@ export default function Hero() {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url('/images/ales-nesetril-opac.png')`,
         backgroundBlendMode: "lighten"
       }}
+      id="home"
+      data-to-scrollspy-id="home"
       className={HeroStyles}
     >
       <Header />

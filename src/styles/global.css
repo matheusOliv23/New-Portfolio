@@ -6,7 +6,8 @@ body {
   @apply text-white;
   @apply box-border;
   @apply font-dm;
-  @apply bg-dark-200;
+@apply bg-dark-200 scroll-smooth;
+
 }
 
 a {
