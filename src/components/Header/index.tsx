@@ -9,21 +9,20 @@ const menu = [
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-center  w-full border-b-[0.3px] border-[#ffffff14] p-4 px-6 md:justify-end">
-      <nav>
+    <header className="w-full top-0 z-50 sticky border-b-[0.3px] border-[#ffffff14] py-4 px-6 md:justify-end">
+      <nav className="flex justify-end items-end">
         <ul className="flex items-center gap-9 justify-between">
           {menu.map((item) => (
             <li
-              data-to-scrollspy-id={item.route}
-              className="hover:text-secondary cursor-pointer"
+              className="hover:text-secondary active:text-secondary cursor-pointer"
               key={item.id}
             >
               <Link
-                activeClass="active"
+                activeClass="text-secondary"
                 to={item.route}
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-110}
                 duration={500}
                 href={item.route}
               >

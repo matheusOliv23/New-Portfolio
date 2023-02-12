@@ -1,4 +1,3 @@
-import Header from "../Header"
 import Headline from "../Headline"
 import SocialIcons from "../SocialIcons"
 import { HeroImgStyles, HeroStyles, ImgContainer } from "./styles"
@@ -11,11 +10,9 @@ export default function Hero() {
         backgroundBlendMode: "lighten"
       }}
       id="home"
-      data-to-scrollspy-id="home"
       className={HeroStyles}
     >
-      <Header />
-      <div className="lg:flex-row flex-col-reverse flex items-center justify-around">
+      <div className="lg:flex-row mt-[5%] flex-col-reverse flex items-center justify-around">
         <Headline />
 
         <div className={ImgContainer}>
