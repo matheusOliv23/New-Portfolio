@@ -15,6 +15,7 @@ export default function Hero() {
       <Header />
       <div className="lg:flex-row flex-col-reverse flex items-center justify-around">
         <Headline />
+
         <div className={ImgContainer}>
           <div
             style={{ backgroundImage: "url('/images/eu.webp')" }}

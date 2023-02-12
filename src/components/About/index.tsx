@@ -1,15 +1,25 @@
 import React from "react"
+import { motion } from "framer-motion"
 
 export default function About() {
   return (
     <div className="flex w-full lg:flex-row flex-col font-openSans gap-10 max-w-7xl px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center">
       <div className="space-y-4">
         <h2 className="text-2xl text-primary">Sobre mim</h2>
-        <p className="lg:max-w-xl text-xl text-justify">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.3 }}
+          variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 }
+          }}
+          className="lg:max-w-xl text-xl text-justify"
+        >
           Tenho como objetivo principal me tornar destaque no desenvolvimento
           web, principalmente na parte de Front-End. Sou uma pessoa muito
           dedicada, educada, responsável e gosto muito de novos desafios.
-        </p>
+        </motion.div>
       </div>
 
       <div className="flex items-center justify-center flex-col w-full lg:max-w-sm space-y-4">
@@ -28,10 +38,19 @@ export default function About() {
           </div>
         </div>
 
-        <p className="text-justify">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
+          variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 }
+          }}
+          className="text-justify"
+        >
           Experiência em desenvolvimento de aplicações web responsivas e
           escaláveis utilizando Javascript, Typescript e Reactjs.
-        </p>
+        </motion.div>
       </div>
     </div>
   )
