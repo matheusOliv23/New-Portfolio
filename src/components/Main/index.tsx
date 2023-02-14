@@ -5,6 +5,7 @@ import Hero from "../Hero"
 import Projects from "../Projects"
 import Skiils from "../Skiils"
 import { skills } from "../Skiils/skillsMock"
+import Whatsapp from "../Whatsapp"
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
       <Projects />
       <Skiils skills={skills} />
       <Footer />
+      <Whatsapp />
     </>
   )
 }
