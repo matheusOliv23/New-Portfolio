@@ -16,8 +16,12 @@ export default function Headline() {
   return (
     <div className={HeadlineContainer}>
       <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial="hidden"
+        whileInView="visible"
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 }
+        }}
         transition={{
           duration: 0.6,
           delay: 0.3,
@@ -28,11 +32,15 @@ export default function Headline() {
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial="hidden"
+        whileInView="visible"
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 }
+        }}
         transition={{
           duration: 0.6,
-          delay: 0.6,
+          delay: 0.5,
           ease: [0, 0.71, 0.2, 1.01]
         }}
       >
@@ -42,8 +50,12 @@ export default function Headline() {
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial="hidden"
+        whileInView="visible"
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 }
+        }}
         transition={{
           duration: 0.6,
           delay: 0.8,

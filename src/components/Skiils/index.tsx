@@ -15,7 +15,21 @@ export default function Skiils({ skills }: SkillsProps) {
       id="skills"
       className="flex w-full flex-col items-center font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto lg:justify-center"
     >
-      <h2 className="text-[40px] text-center md:mb-10">Habilidades</h2>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 }
+        }}
+        transition={{
+          duration: 0.6,
+          delay: 0.5,
+          ease: [0, 0.71, 0.2, 1.01]
+        }}
+      >
+        <h2 className="text-[40px] text-center md:mb-10">Habilidades</h2>
+      </motion.div>
 
       <div className="md:flex grid md:mb-0 mb-6 grid-cols-2 justify-center gap-2 h-full md:gap-0 w-4/5 flex-wrap">
         {skills.map((item, index) => (

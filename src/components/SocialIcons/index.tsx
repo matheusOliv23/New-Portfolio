@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react"
+import { motion } from "framer-motion"
 
 const icons = [
   {
@@ -24,8 +25,16 @@ const icons = [
 export default function SocialIcons() {
   return (
     <div className="flex gap-10 mb-2 mt-2">
-      {icons.map((icon) => (
-        <div
+      {icons.map((icon, index) => (
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          animate={{ x: 0, rotate: [0, 360] }}
+          transition={{
+            type: "spring",
+            bounce: 0.4,
+            duration: 2 + index * 0.3
+          }}
           className="flex hover:opacity-50 flex-col items-center justify-center"
           key={icon.name}
         >
@@ -38,7 +47,7 @@ export default function SocialIcons() {
             />
           </a>
           <span className="text-xs font-medium">{icon.title}</span>
-        </div>
+        </motion.div>
       ))}
     </div>
   )

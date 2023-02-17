@@ -1,5 +1,6 @@
 import ProjectCard from "../ProjectCard"
 import { Swiper, SwiperSlide } from "swiper/react"
+import { motion } from "framer-motion"
 
 const projects = [
   {
@@ -46,7 +47,21 @@ export default function Projects() {
       className="flex w-full font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto xl:justify-between lg:justify-center bg-black"
     >
       <div className="m-auto w-full max-w-7xl">
-        <h2 className="text-[40px] text-center mb-10">Projetos</h2>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 }
+          }}
+          transition={{
+            duration: 0.6,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}
+        >
+          <h2 className="text-[40px] text-center mb-10">Projetos</h2>
+        </motion.div>
 
         <Swiper
           speed={900}
