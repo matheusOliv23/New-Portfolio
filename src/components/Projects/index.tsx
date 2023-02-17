@@ -1,6 +1,7 @@
 import ProjectCard from "../ProjectCard"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { motion } from "framer-motion"
+import { Navigation } from "swiper"
 
 const projects = [
   {
@@ -14,12 +15,48 @@ const projects = [
     title: "Unimodas",
     href: "https://unimodas7l.vercel.app/",
     img: "/images/unimodas.png"
+  },
+  {
+    id: "3",
+    title: "TISolutions",
+    href: "https://transcendent-croissant-98649e.netlify.app/",
+    img: "/images/solutions.png"
+  },
+  {
+    id: "7",
+    title: "Tourist",
+    href: "https://matheusoliv23.github.io/Tourist/",
+    img: "/images/tourist.png"
+  },
+  {
+    id: "8",
+    title: "DeliciousAçai",
+    href: "https://matheusoliv23.github.io/delicious_acai_projeto/",
+    img: "/images/delicious.png"
+  },
+  {
+    id: "4",
+    title: "Todo-Redux",
+    href: "https://lista-tarefas-redux.vercel.app/",
+    img: "/images/redux.png"
+  },
+  {
+    id: "5",
+    title: "Live Chat",
+    href: "https://chat-react-seven.vercel.app/",
+    img: "/images/chat.png"
+  },
+  {
+    id: "6",
+    title: "MyBlog",
+    href: "https://my-blog-omega-sand.vercel.app/",
+    img: "/images/front.png"
   }
 ]
 
 const breakpoints = {
   1024: {
-    slidesPerView: 3,
+    slidesPerView: 3.5,
     slidesPerGroup: 3,
     spaceBetween: 0
   },
@@ -70,6 +107,7 @@ export default function Projects() {
           navigation={true}
           loop={false}
           breakpoints={breakpoints}
+          modules={[Navigation]}
         >
           {projects.map((item) => (
             <SwiperSlide key={item.id}>
