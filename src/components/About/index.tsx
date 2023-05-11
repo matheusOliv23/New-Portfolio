@@ -29,13 +29,13 @@ export default function About() {
       <div className="flex items-center justify-center flex-col w-full lg:max-w-sm space-y-4">
         <div className="flex w-full justify-between md:gap-16 md:justify-start lg:justify-between items-center">
           <div className="flex items-center gap-2">
-            <p className="text-6xl font-semibold text-primary">1.5</p>
+            <p className="text-6xl font-semibold text-primary">1.8</p>
             <p className="text-sm">
               anos <br /> de experiência
             </p>
           </div>
           <div className="flex items-center gap-2">
-            <p className="text-6xl font-semibold text-primary">6</p>
+            <p className="text-6xl font-semibold text-primary">8</p>
             <p className="text-sm">
               projetos <br /> concluídos
             </p>
