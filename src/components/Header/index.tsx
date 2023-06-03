@@ -1,13 +1,16 @@
+import { useTranslation } from "react-i18next"
 import { Link } from "react-scroll"
 
-const menu = [
-  { id: 1, name: "Home", route: "home" },
-  { id: 2, name: "Sobre", route: "about" },
-  { id: 3, name: "Projetos", route: "projects" },
-  { id: 4, name: "Habilidades", route: "skills" }
-]
-
 export default function Header() {
+  const { t } = useTranslation()
+
+  const menu = [
+    { id: 1, name: t("menu.home"), route: "home" },
+    { id: 2, name: t("menu.about"), route: "about" },
+    { id: 3, name: t("menu.projects"), route: "projects" },
+    { id: 4, name: t("menu.skills"), route: "skills" }
+  ]
+
   return (
     <header className="w-full bg-dark-200 top-0 z-50 sticky border-b-[0.3px] border-[#ffffff14] py-4 px-6 md:justify-end">
       <nav className="flex justify-end items-end">
