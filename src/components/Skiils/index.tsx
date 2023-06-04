@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { useTranslation } from "react-i18next"
 
 type SkillType = {
   title: string
@@ -10,10 +11,11 @@ interface SkillsProps {
 }
 
 export default function Skiils({ skills }: SkillsProps) {
+  const { t } = useTranslation()
   return (
     <section
       id="skills"
-      className="flex w-full flex-col items-center font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto lg:justify-center"
+      className="flex w-full bg-gray-light flex-col items-center font-openSans gap-10 md:px-7 py-6 md:py-20 lg:py-32 m-auto lg:justify-center"
     >
       <motion.div
         initial="hidden"
@@ -28,7 +30,7 @@ export default function Skiils({ skills }: SkillsProps) {
           ease: [0, 0.71, 0.2, 1.01]
         }}
       >
-        <h2 className="text-[40px] text-center md:mb-10">Habilidades</h2>
+        <h2 className="text-[40px] text-center md:mb-10">{t("menu.skills")}</h2>
       </motion.div>
 
       <div className="md:flex grid md:mb-0 mb-6 grid-cols-2 justify-center gap-2 h-full md:gap-0 w-4/5 flex-wrap">
