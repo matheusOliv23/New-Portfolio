@@ -2,6 +2,7 @@ import ProjectCard from "../ProjectCard"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { motion } from "framer-motion"
 import { Navigation } from "swiper"
+import { useTranslation } from "react-i18next"
 
 const projects = [
   {
@@ -78,6 +79,7 @@ const breakpoints = {
 }
 
 export default function Projects() {
+  const { t } = useTranslation()
   return (
     <section
       id="projects"
@@ -97,7 +99,9 @@ export default function Projects() {
             ease: [0, 0.71, 0.2, 1.01]
           }}
         >
-          <h2 className="text-[40px] text-center mb-10">Projetos</h2>
+          <h2 className="text-[40px] text-center mb-10">
+            {t("projects.projects")}
+          </h2>
         </motion.div>
 
         <Swiper

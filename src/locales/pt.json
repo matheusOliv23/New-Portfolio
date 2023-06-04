@@ -21,5 +21,9 @@
   "projects": {
     "projects": "Projetos",
     "view": "Acessar"
+  },
+  "footer": {
+    "dev": "Desenvolvido por",
+    "all": "Todos os direitos reservados"
   }
 }
