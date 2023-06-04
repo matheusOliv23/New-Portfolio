@@ -7,8 +7,11 @@ import {
   TextStyles,
   TitleStyles
 } from "./styles"
+import { useTranslation } from "react-i18next"
 
 export default function Headline() {
+  const { t } = useTranslation()
+
   function scrollDown() {
     window.scrollTo({ top: 300, behavior: "smooth" })
   }
@@ -45,7 +48,8 @@ export default function Headline() {
         }}
       >
         <h2 className={SubtitleStyles}>
-          Desenvolvedor <strong className="text-primary">Front-End</strong>
+          {t("hero.dev")}{" "}
+          <strong className="text-primary">{t("hero.front")}</strong>
         </h2>
       </motion.div>
 
@@ -62,14 +66,12 @@ export default function Headline() {
           ease: [0, 0.71, 0.2, 1.01]
         }}
       >
-        <h3 className={TextStyles}>
-          Transformando sonhos em realidade por meio da tecnologia
-        </h3>
+        <h3 className={TextStyles}>{t("hero.text")}</h3>
       </motion.div>
 
       <div className={ButtonContainerStyls}>
         <Button onClick={scrollDown} type="button" variant="PRIMARY">
-          Quem sou eu
+          {t("hero.who")}
         </Button>
       </div>
     </div>

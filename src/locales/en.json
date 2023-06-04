@@ -4,5 +4,11 @@
     "about": "About",
     "projects": "Projects",
     "skills": "Skills"
+  },
+  "hero": {
+    "dev": "Developer",
+    "front": "Front-End",
+    "text": "Turning dreams into reality through technology",
+    "who": "Who am I"
   }
 }
