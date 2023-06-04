@@ -71,7 +71,7 @@ export default function Headline() {
 
       <div className={ButtonContainerStyls}>
         <Button onClick={scrollDown} type="button" variant="PRIMARY">
-          {t("hero.who")}
+          <a href="#about">{t("hero.who")}</a>
         </Button>
       </div>
     </div>
