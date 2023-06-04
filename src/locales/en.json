@@ -17,5 +17,9 @@
     "proficient": "Proficient in utilizing modern front-end frameworks like React to build dynamic and interactive user interfaces.",
     "proactive": "Proactive and quick learner, with strong adaptability.",
     "always": "Always seeking new challenges to expand my skills and keep up with the rapidly evolving field of web development."
+  },
+  "projects": {
+    "projects": "Projects",
+    "view": "View"
   }
 }

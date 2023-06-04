@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next"
+
 interface ProjectCardProps {
   title?: string
   href: string
@@ -5,6 +7,7 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ title, href, img }: ProjectCardProps) {
+  const { t } = useTranslation()
   return (
     <div
       style={{
@@ -20,10 +23,10 @@ export default function ProjectCard({ title, href, img }: ProjectCardProps) {
           <a
             href={href}
             target="_blank"
-            className="hover:text-primary rounded border border-primary p-1"
+            className="hover:text-primary text-sm rounded border border-primary p-1"
             rel="noreferrer"
           >
-            <p className="font-medium">Ver site</p>
+            <p className="font-medium">{t("projects.view")}</p>
           </a>
         </div>
       </div>
