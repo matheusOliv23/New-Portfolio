@@ -40,9 +40,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ classNames }) => {
   ]
 
   return (
-    <div
-      className={`inline-block cursor-pointer bg-transparent top-2 left-3 ${classNames}`}
-    >
+    <div className={`inline-block cursor-pointer bg-transparent ${classNames}`}>
       <Select
         className="!bg-black cursor-pointer"
         options={options}

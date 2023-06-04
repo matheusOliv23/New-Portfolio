@@ -13,8 +13,8 @@ export default function Header() {
   ]
 
   return (
-    <header className="w-full bg-dark-200 top-0 z-[100000] fixed border-b-[0.3px] border-[#ffffff14] py-4 px-6 md:justify-end">
-      <nav className="flex justify-end items-end">
+    <header className="w-full bg-dark-200 fixed top-0 z-[100000] border-b-[0.3px] border-[#ffffff14] py-4 px-6 md:justify-end">
+      <nav className="flex lg:justify-end justify-center items-end">
         <ul className="flex items-center gap-9 justify-between">
           {menu.map((item) => (
             <li
@@ -35,7 +35,7 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <LanguageSelector classNames="relative" />
+        <LanguageSelector classNames="relative hidden md:block" />
       </nav>
     </header>
   )

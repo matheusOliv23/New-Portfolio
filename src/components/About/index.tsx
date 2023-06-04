@@ -74,7 +74,7 @@ export default function About() {
           </ul>
         </div>
         <div>
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions} />
         </div>
       </div>
     </section>
