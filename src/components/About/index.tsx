@@ -2,13 +2,15 @@ import React from "react"
 import { motion } from "framer-motion"
 import tech from "src/lotties/tech.json"
 import Lottie from "react-lottie"
+import { useTranslation } from "react-i18next"
 
 export default function About() {
+  const { t } = useTranslation()
   const about = [
-    "Habilidades em HTML, CSS e JavaScript, com foco em criar designs responsivos e acessíveis.",
-    "Proficiente no uso de frameworks modernos de front-end, como o React, para construir interfaces de usuário dinâmicas e interativas.",
-    "Proativo e rápido aprendizado, com forte capacidade de adaptação.",
-    "Sempre em busca de novos desafios para expandir minhas habilidades e acompanhar o campo de desenvolvimento web, que está em constante evolução."
+    t("about.skills"),
+    t("about.proficient"),
+    t("about.proactive"),
+    t("about.always")
   ]
 
   const defaultOptions = {

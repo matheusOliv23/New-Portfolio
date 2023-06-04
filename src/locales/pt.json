@@ -10,5 +10,12 @@
     "front": "Front-End",
     "text": "Transformando sonhos em realidade por meio da tecnologia",
     "who": "Quem sou eu"
+  },
+  "about": {
+    "me": "Sobre Mim",
+    "skills": "Habilidades em HTML, CSS e JavaScript, com foco em criar designs responsivos e acessíveis.",
+    "proficient": "Proficiente no uso de frameworks modernos de front-end, como o React, para construir interfaces de usuário dinâmicas e interativas.",
+    "proactive": "Proativo e com rápido aprendizado, com forte capacidade de adaptação.",
+    "always": "Sempre em busca de novos desafios para expandir minhas habilidades e acompanhar o campo de desenvolvimento web, que está em constante evolução."
   }
 }
