@@ -34,24 +34,6 @@ const projects = [
     title: "DeliciousAçai",
     href: "https://matheusoliv23.github.io/delicious_acai_projeto/",
     img: "/images/delicious.png"
-  },
-  {
-    id: "4",
-    title: "Todo-Redux",
-    href: "https://lista-tarefas-redux.vercel.app/",
-    img: "/images/redux.png"
-  },
-  {
-    id: "5",
-    title: "Live Chat",
-    href: "https://chat-react-seven.vercel.app/",
-    img: "/images/chat.png"
-  },
-  {
-    id: "6",
-    title: "MyBlog",
-    href: "https://my-blog-omega-sand.vercel.app/",
-    img: "/images/front.png"
   }
 ]
 
